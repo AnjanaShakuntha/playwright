@@ -33,7 +33,20 @@ const testData = [
     { id: 'Pos_Fun_0023', input: 'TikTok video ekak balanavaa', expected: 'TikTok video එකක් බලනවා' },
     { id: 'Pos_Fun_0024', input: 'KFC eke yanna oonee', expected: 'KFC eke යන්න ඕනේ' },
 
+    { id: 'Neg_Fun_0001', input: 'brb, ttyl', expected: 'brb, ttyl' },
+    { id: 'Neg_Fun_0002', input: 'grr8! l8r!', expected: 'grr8! l8r!' },
+    { id: 'Neg_Fun_0003', input: 'MaMa vAtUrA bOnAvAa', expected: 'MaMa vAtUrA bOnAvAa' },
     
+    { id: 'Neg_Fun_0004', input: 'mamakadeyanavaapitayannaoonee', expected: '[Unsegmented or incorrect output]' },
+    { id: 'Neg_Fun_0005', input: 'kohomdha?', expected: 'kohomdha?' },
+    { id: 'Neg_Fun_0006', input: 'wow! eeka hari da?', expected: 'wow! එක හරි ද? OR [Incorrect conversion]' },
+
+    { id: 'Neg_Fun_0007', input: 'machan -> mach', expected: 'mach OR [Incorrect conversion]' },
+    { id: 'Neg_Fun_0008', input: ' home -> home', expected: '[Incorrect conversion]' },
+    { id: 'Neg_Fun_0009', input: '	kohomaddha??', expected: '[Incorrect conversion]' },
+    { id: 'Neg_Fun_0010', input: 'if(oya==hri){api yamu}', expected: '[Garbled output]' },
+
+    { id: 'Pos_UI_0001', input: 'api enavaa', expected: 'As the user types, the output field should automatically update to "අපි එනවා' },
 
 
 
