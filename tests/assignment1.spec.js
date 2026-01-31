@@ -16,7 +16,7 @@ const testData = [
     { id: 'Pos_Fun_0010', input: 'apiyaage gedara aluthenawa', expected: 'අපියාගේ ගෙදර අලුතෙනව' },
     { id: 'Pos_Fun_0011', input: 'ammaa thamaage pothak kinnee naa', expected: 'අම්මා තමාගේ පොතක් කින්නේ නෑ' },
     { id: 'Pos_Fun_0012', input: 'thaththaage gaadiya aluthenawa', expected: 'තාත්තාගේ ගාඩිය අලුතෙනව' },
-    
+
    ];
 
 
@@ -60,3 +60,4 @@ test.describe('Singlish to Sinhala Automation Suite', () => {
         });
     }
 });
+///////
